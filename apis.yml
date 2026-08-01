@@ -1,7 +1,24 @@
 aid: philon
 name: Philon
-description: Philon is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Philon is a Y Combinator-backed robotics research company building open-source,
+  general-purpose humanoid robots capable of performing unsafe, repetitive, or boring
+  tasks. Philon develops foundational AI models for embodied agents, including Holo 1.0,
+  a generalist vision-language-action model that navigates virtual 3D worlds and completes
+  hour-long objectives, alongside research on generative memory, focused attention for
+  massive context windows, and latent steering of action experts. The company publishes
+  its models and research code openly on GitHub.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://philon.ai/images/logo.svg
 url: https://raw.githubusercontent.com/api-evangelist/philon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +28,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Robotics
+- Artificial Intelligence
+- Research
+- Open Source
+- Humanoid Robots
+- Foundation Models
+- Embodied AI
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/philon-domain-security.yml
+- type: Website
+  url: https://philon.ai
+- type: GitHubOrganization
+  url: https://github.com/philon-ai
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
