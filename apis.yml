@@ -7,6 +7,17 @@ description: Philon is a Y Combinator-backed robotics research company building 
   hour-long objectives, alongside research on generative memory, focused attention for
   massive context windows, and latent steering of action experts. The company publishes
   its models and research code openly on GitHub.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
